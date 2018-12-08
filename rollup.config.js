@@ -6,6 +6,7 @@ export default [
 	// browser-friendly UMD build
 	{
 		input: 'src/main.js',
+		external: ['ms'],
 		output: {
 			name: 'howLongUntilLunch',
 			file: pkg.browser,
